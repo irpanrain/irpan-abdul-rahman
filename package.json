@@ -1,6 +1,6 @@
 {
   "homepage": "http://irpanrain.github.io/irpan-portofolio",
-  "name": "personal-branding-template",
+  "name": "irpan-portofolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,15 +25,15 @@
     "yarn": "^1.22.10"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "watch:style": "postcss ./src/assets/css/styles.css -o ./src/assets/css/app.css -w",
     "build:style": "postcss ./src/assets/css/styles.css -o ./src/assets/css/app.css --env production",
     "start": "react-scripts start",
     "dev": "concurrently \"yarn watch:style\" \"yarn start\"",
     "build": "yarn build:style && react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
