@@ -7,8 +7,9 @@ import jqueryIcon from '@iconify/icons-logos/jquery';
 
 const Text = () => (
   <>
-    Saat ini saya sedang bekerja sebagai{' '}
-    <span className="font-bold text-gray-800">web developer</span>{' '}. saya sangat suka menggunakan
+    {/*Saat ini saya sedang bekerja sebagai{' '}*/}
+    {/*<span className="font-bold text-gray-800">web developer</span>{' '}. */}
+    saya sangat suka menggunakan
     <HighlightedTextIcon
       as="a"
       href="https://tailwindcss.com"
