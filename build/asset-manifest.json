@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/irpan-abdul-rahman/static/css/main.be50779e.chunk.css",
+    "main.js": "/irpan-abdul-rahman/static/js/main.9d9761b1.chunk.js",
+    "main.js.map": "/irpan-abdul-rahman/static/js/main.9d9761b1.chunk.js.map",
+    "runtime-main.js": "/irpan-abdul-rahman/static/js/runtime-main.d3f81cac.js",
+    "runtime-main.js.map": "/irpan-abdul-rahman/static/js/runtime-main.d3f81cac.js.map",
+    "static/js/2.3ea00ca3.chunk.js": "/irpan-abdul-rahman/static/js/2.3ea00ca3.chunk.js",
+    "static/js/2.3ea00ca3.chunk.js.map": "/irpan-abdul-rahman/static/js/2.3ea00ca3.chunk.js.map",
+    "static/js/3.c1f7808f.chunk.js": "/irpan-abdul-rahman/static/js/3.c1f7808f.chunk.js",
+    "static/js/3.c1f7808f.chunk.js.map": "/irpan-abdul-rahman/static/js/3.c1f7808f.chunk.js.map",
+    "index.html": "/irpan-abdul-rahman/index.html",
+    "static/css/main.be50779e.chunk.css.map": "/irpan-abdul-rahman/static/css/main.be50779e.chunk.css.map",
+    "static/js/2.3ea00ca3.chunk.js.LICENSE.txt": "/irpan-abdul-rahman/static/js/2.3ea00ca3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3f81cac.js",
+    "static/js/2.3ea00ca3.chunk.js",
+    "static/css/main.be50779e.chunk.css",
+    "static/js/main.9d9761b1.chunk.js"
+  ]
+}
