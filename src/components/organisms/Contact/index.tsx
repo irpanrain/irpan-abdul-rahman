@@ -64,8 +64,8 @@ const Contact = forwardRef<HTMLElement | undefined, ContactSectionProps>(
               </FullRoundButton>
             </Animated.FromDirection>
             <Animated.FromDirection from="bottom" animate={controls} custom={2.6} delay={0.6}>
-              <FullRoundButton as="a" href={socials.instagram} label="Instagram">
-                <Icons.Instagram className="w-6" />
+              <FullRoundButton as="a" href={socials.linkedin} label="Linkedin">
+                <Icons.Linkedin className="w-6" />
               </FullRoundButton>
             </Animated.FromDirection>
           </div>

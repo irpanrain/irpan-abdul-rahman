@@ -2,41 +2,24 @@ import { ProjectCardDataProps } from "components/molecules/ProjectCard/types";
 
 const projects: ProjectCardDataProps[] = [
   {
-    title: 'usePagination',
-    description: 'Simple client side pagination hooks for react.',
+    title: 'CI Acoder Boilerplate',
+    description: 'CodeIgniter 4 Application Starter Boilerplate',
     type: 'github',
-    url: 'https://github.com/itsfaqih/usepagination',
+    url: 'https://github.com/irpanrain/ci-acoder-boilerplate/tree/development-v0',
   },
   {
-    title: 'larareactia',
+    title: 'Acoder Spring Boot Template / Boilerplate',
     description:
-      'Laravel SPA + React + Inertia.js + TailwindCSS starter template with authentication.',
+      'Spring Boot API Boilerplate with the basic spring scurity and authentication',
     type: 'github',
-    url: 'https://github.com/itsfaqih/larareactia',
+    url: 'https://github.com/irpanrain/acoder_spring_boot_template',
   },
   {
-    title: 'Overflow',
-    description: 'TailwindCSS Admin Dashboard Template.',
-    type: 'dribbble',
-    url: 'https://dribbble.com/shots/11877395-Overflow-TailwindCSS-Admin-Dashboard-Template',
-  },
-  {
-    title: 'kos-manager',
-    description: 'Lodgement management application. Developed with Laravel, Inertiajs, and React.',
+    title: 'Nest Blog',
+    description:
+      'Create blog using NestJs API and ReactJs for Frontend',
     type: 'github',
-    url: 'http://github.com/itsfaqih/kos-manager',
-  },
-  {
-    title: 'Nyx',
-    description: 'TailwindCSS Landing Page Template.',
-    type: 'dribbble',
-    url: 'https://dribbble.com/shots/11712756-Nyx-TailwindCSS-Landing-Page-Template',
-  },
-  {
-    title: 'flexbox-tutorial',
-    description: 'CSS layouting using flexbox tutorial.',
-    type: 'github',
-    url: 'http://github.com/itsfaqih/flexbox-tutorial',
+    url: 'https://github.com/irpanrain/nest-blog',
   },
 ];
 

@@ -8,6 +8,6 @@ export interface ContactSectionContentProps {
   socials: {
     facebook: string;
     twitter: string;
-    instagram: string;
+    linkedin: string;
   };
 }

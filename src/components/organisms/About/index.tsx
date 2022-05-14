@@ -63,7 +63,7 @@ const About = forwardRef<HTMLElement | undefined, AboutSectionProps>(
           </Animated.FromDirection>
           <div className="mx-auto mt-6 lg:mr-0 lg:ml-auto lg:mt-0">
             <Animated.FromDirection from="bottom" animate={controls} custom={1} delay={1}>
-              <RoundedButton as="a" href="https://drive.google.com/file/d/18oJIklrwZvKF9ziC4bQx5gDV-UUpBgne/view?usp=sharing">
+              <RoundedButton as="a" href="https://drive.google.com/file/d/1stCSKJHY5UEa4BwxkudTOTpdhdW5v6ge/view?usp=sharing">
                 {language.value === 'en' ? 'Download' : 'Unduh'} Resume
               </RoundedButton>
             </Animated.FromDirection>

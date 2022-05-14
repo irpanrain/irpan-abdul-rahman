@@ -2,8 +2,8 @@ import { Landing } from 'components/templates';
 import LanguageContext from 'contexts/language';
 import {
   header as headerData,
-  // projects as projectsData,
-  // blogs as blogsData,
+  projects as projectsData,
+  blogs as blogsData,
   skills as skillsData,
   contact as contactData
 } from 'data';
@@ -53,12 +53,12 @@ export default function Home() {
         about: {
           text: locale.about.text,
         },
-        // projects: {
-        //   items: projectsData,
-        // },
-        // blogs: {
-        //   items: blogsData,
-        // },
+        projects: {
+          items: projectsData,
+        },
+        blogs: {
+          items: blogsData,
+        },
         skills: {
           text: locale.skills.text,
           items: skillsData,

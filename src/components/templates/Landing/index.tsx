@@ -7,6 +7,7 @@ import HeaderProps from 'components/organisms/Header/types';
 import { ProjectsSectionContentProps } from 'components/organisms/Projects/types';
 import { SkillsSectionContentProps } from 'components/organisms/Skills/types';
 import { LocaleProps } from 'contexts/language';
+import { projects } from 'data';
 import React from 'react';
 import { useRef } from 'react';
 
@@ -14,8 +15,8 @@ interface Props {
   data: {
     header: HeaderProps;
     about: AboutSectionContentProps;
-    // projects: ProjectsSectionContentProps;
-    // blogs: BlogsSectionContentProps;
+    projects: ProjectsSectionContentProps;
+    blogs: BlogsSectionContentProps;
     skills: SkillsSectionContentProps;
     contact: ContactSectionContentProps;
   };
@@ -24,7 +25,7 @@ interface Props {
 }
 
 export default function Landing({ data, locale, sections }: Props) {
-  const { header, about, skills, contact } = data;
+  const { header, projects, blogs, about, skills, contact } = data;
   const lowerSectionRef = useRef();
 
   return (
@@ -42,14 +43,14 @@ export default function Landing({ data, locale, sections }: Props) {
               className="pt-32 mt-24"
               ref={lowerSectionRef}
             />
-            {/* <Projects
+            <Projects
               title={sections.projects}
               content={{
                 items: projects.items,
               }}
               className="pt-12 mt-40"
             />
-            <Blogs
+            {/* <Blogs
               title={sections.blogs}
               content={{ items: blogs.items }}
               className="mt-12 pt-28"

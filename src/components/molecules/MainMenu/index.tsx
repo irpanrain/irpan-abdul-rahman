@@ -59,7 +59,7 @@ export default function MainMenu({ animationFinish, sections }: Props) {
                         </Animated.FromDirection>
                       )}
                     </Menu.Item>
-                    <Menu.Item as="a" href="#blogs">
+                    {/* <Menu.Item as="a" href="#blogs">
                       {({ active }: { active: boolean }) => (
                         <Animated.FromDirection
                           from="bottom"
@@ -71,7 +71,7 @@ export default function MainMenu({ animationFinish, sections }: Props) {
                           <MenuItem active={active}>{sections.blogs}</MenuItem>
                         </Animated.FromDirection>
                       )}
-                    </Menu.Item>
+                    </Menu.Item> */}
                     <Menu.Item as="a" href="#skills">
                       {({ active }: { active: boolean }) => (
                         <Animated.FromDirection

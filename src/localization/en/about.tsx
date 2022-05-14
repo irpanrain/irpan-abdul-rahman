@@ -9,8 +9,11 @@ const Text = () => (
   <>
     {/*I’m currently working as a {' '}*/}
     {/*<span className="font-bold text-gray-800">web developer</span>.\*/}
-    I enjoy building web apps using
-    <HighlightedTextIcon
+    Well-qualified Full Stack Developer familiar with wide range of programming utilities 
+    and languages. Knowledgeable of backend and frontend development requirements. 
+    Collaborative team player with excellent technical abilities offering 3 years 
+    of related experience.
+    {/* <HighlightedTextIcon
       as="a"
       href="https://laravel.com"
       className="mx-2"
@@ -27,7 +30,7 @@ const Text = () => (
     >
       JQuery
     </HighlightedTextIcon>
-    . I'm also working as a freelance <span className="font-bold text-gray-800">fullstack developer</span>.
+    . I'm also working as a freelance <span className="font-bold text-gray-800">fullstack developer</span>. */}
   </>
 );
 

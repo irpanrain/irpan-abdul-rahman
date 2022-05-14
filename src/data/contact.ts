@@ -5,7 +5,7 @@ const contact: ContactSectionContentProps = {
   socials: {
     facebook: 'https://www.facebook.com/irpan.a.rahman.3',
     twitter: 'https://twitter.com/IrpanElNaml',
-    instagram: 'https://www.instagram.com/irpan_ar15/',
+    linkedin: 'https://www.linkedin.com/in/irpan-abdul-rahman',
   },
 };
 

@@ -9,7 +9,7 @@ const Text = () => (
   <>
     {/*Saat ini saya sedang bekerja sebagai{' '}*/}
     {/*<span className="font-bold text-gray-800">web developer</span>{' '}. */}
-    saya sangat suka menggunakan
+    {/* saya sangat suka menggunakan
     <HighlightedTextIcon
       as="a"
       href="https://tailwindcss.com"
@@ -27,7 +27,11 @@ const Text = () => (
     >
       JQuery
     </HighlightedTextIcon> untuk membuat web apps
-    . Saya juga seorang freelance fullstack developer.
+    . Saya juga seorang freelance fullstack developer. */}
+    Pengembang Full Stack berkualifikasi baik yang akrab dengan berbagai utilitas 
+    dan bahasa pemrograman. Memiliki pengetahuan tentang persyaratan pengembangan backend 
+    dan frontend. Pemain tim kolaboratif dengan kemampuan teknis yang sangat baik 
+    menawarkan 3 tahun pengalaman terkait.
   </>
 );
 
